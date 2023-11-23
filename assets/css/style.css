@@ -1029,6 +1029,12 @@ section {
   background: #7a7a7a;
 }
 
+.team .member:hover {
+  box-shadow: 2px 1px 5px 5px rgba(0, 0, 0, 0.2);
+  transform: scale(1.05);
+  transition: all 0.2s ease;
+}
+
 .team .member img {
   max-width: 60%;
   margin: 0 0 30px 0;
